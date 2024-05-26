@@ -1,4 +1,5 @@
 {
+  "home":"https://TewoldeM.github.io/Fully-Responsive-Modern-UI-UX-Website",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy":"gh-pages -d build",
+    "predeploy":"npm run build",
     "lint": "next lint"
   },
   "dependencies": {
